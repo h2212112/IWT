@@ -1,0 +1,106 @@
+.story-home {
+     /* ✅ Works from public */
+
+ /* Replace with your own image path */
+ background-image: url('C:\xampp\htdocs\story_portal\story-frontend\public\bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: sans-serif;
+    color: #fff;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('C:\xampp\htdocs\story_portal\story-frontend\public\bg.jpg'); /* use relative path from public folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+  }
+  
+  .story-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  .story-form input,
+  .story-form textarea,
+  .story-form select,
+  .story-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .story-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .story-form button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .filter-section {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .story-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
